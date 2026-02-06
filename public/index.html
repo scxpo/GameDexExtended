@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpine Edge - Articoli da Montagna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">Alpine Edge</div>
+        <ul class="nav-links">
+          <li><a href="#collezioni">Collezioni</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#prodotti">Prodotti</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+        <button class="cta">Scopri le offerte</button>
+      </nav>
+      <section class="hero-content">
+        <div>
+          <p class="eyebrow">Spedizioni veloci · Consulenti outdoor</p>
+          <h1>Attrezzatura premium per vivere la montagna senza limiti.</h1>
+          <p class="hero-text">
+            Selezione di giacche, calzature e accessori tecnici con supporto in tempo
+            reale dal nostro team di esperti.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Inizia lo shopping</button>
+            <button class="secondary">Parla con un esperto</button>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Kit Avventura Weekend</h3>
+          <p>Ideale per trekking di 2-3 giorni con meteo variabile.</p>
+          <ul>
+            <li>Zaino 45L con schienale ventilato</li>
+            <li>Giacca termica 3 strati</li>
+            <li>Scarponi waterproof</li>
+          </ul>
+          <span class="price">€ 389</span>
+        </div>
+      </section>
+    </header>
+
+    <section id="collezioni" class="collections">
+      <div>
+        <h2>Collezioni curate per ogni altitudine</h2>
+        <p>
+          Dalle escursioni giornaliere alle spedizioni invernali: trova la linea
+          perfetta per la tua avventura.
+        </p>
+      </div>
+      <div class="collection-grid">
+        <article>
+          <h4>Alpine Core</h4>
+          <p>Strati termici per affrontare il freddo estremo.</p>
+        </article>
+        <article>
+          <h4>Trail Dynamic</h4>
+          <p>Leggerezza e traspirazione per trekking veloci.</p>
+        </article>
+        <article>
+          <h4>Summit Elite</h4>
+          <p>Materiali tecnici per alpinismo e scalate impegnative.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="servizi" class="services">
+      <div class="service-card">
+        <h3>Consulenza personalizzata</h3>
+        <p>Incontra i nostri esperti per configurare il tuo equipaggiamento.</p>
+      </div>
+      <div class="service-card">
+        <h3>Programma fedeltà</h3>
+        <p>Accumula punti e accedi a promozioni riservate ai membri.</p>
+      </div>
+      <div class="service-card">
+        <h3>Ritiro in negozio</h3>
+        <p>Ordina online e ritira in giornata nei nostri store partner.</p>
+      </div>
+    </section>
+
+    <section id="prodotti" class="products">
+      <div class="products-header">
+        <div>
+          <h2>Prodotti consigliati</h2>
+          <p>Selezionati dal nostro database in tempo reale.</p>
+        </div>
+        <div class="summary">
+          <p>Totale articoli: <span id="total-products">-</span></p>
+          <p>Focus categorie: <span id="category-count">-</span></p>
+        </div>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+
+    <section id="contatti" class="contact">
+      <div>
+        <h2>Resta connesso</h2>
+        <p>
+          Scrivici per un preventivo o per ricevere assistenza sulle tue spedizioni.
+        </p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Nome e cognome" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Raccontaci la tua prossima avventura" required></textarea>
+        <button type="submit">Invia richiesta</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>© 2024 Alpine Edge. Tutti i diritti riservati.</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Termini</a>
+        <a href="#">Assistenza</a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
